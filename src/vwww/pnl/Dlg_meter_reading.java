@@ -22,7 +22,6 @@ import mijzcx.synapse.desk.utils.FitIn;
 import mijzcx.synapse.desk.utils.KeyMapping;
 import mijzcx.synapse.desk.utils.KeyMapping.KeyAction;
 import mijzcx.synapse.desk.utils.TableWidthUtilities;
-
 import synsoftech.fields.Label;
 import synsoftech.util.Center;
 import synsoftech.util.ImageRenderer;
@@ -636,6 +635,7 @@ public class Dlg_meter_reading extends javax.swing.JDialog {
                         boolean selected = false;
                         String pipe_size = to.pipe_size;
                         Readings.to_readings new_reading = new Readings.to_readings(id, reading_no, meter_reader_id, meter_reader_name, customer_id, customer_no, customer_name, customer_meter_no, previous_reading_date, previous_reading, current_reading, city, city_id, barangay, barangay_id, purok, purok_id, sitio, sitio_id, created_at, updated_at, created_by, updated_by, status, occupancy_id, occupancy, occupancy_type_id, occupancy_type, occupancy_type_code, actual_consumption, amount_due, mf, mr, interest, discount, net_due, is_paid, or_id, or_no, date_uploaded, is_uploaded, selected, pipe_size);
+                      
                         Readings.add_data(new_reading);
                         Alert.set(1, "");
                         ret_meter_reader_assignments();
@@ -736,6 +736,7 @@ public class Dlg_meter_reading extends javax.swing.JDialog {
         } else {
             
         }
+      
         
     }
     

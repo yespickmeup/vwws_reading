@@ -18,7 +18,6 @@ import mijzcx.synapse.desk.utils.SqlStringUtil;
 import vwws.meter_readers.Meter_reader_assignments.to_meter_reader_assignments;
 import vwws.util.Alert;
 import vwws.util.MyConnection;
-
 /**
  *
  * @author Guinness
